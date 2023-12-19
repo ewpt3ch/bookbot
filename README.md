@@ -1,2 +1,2 @@
 # bookbot
-boot.dev project 1
+First boot.dev project
