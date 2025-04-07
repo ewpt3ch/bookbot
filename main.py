@@ -1,10 +1,8 @@
+from stats import get_num_words
+
 def read_book(file):
     with open(file) as f:
         return f.read()
-
-def get_num_words(text):
-    words = text.split()
-    return len(words)
 
 def get_num_letters(text):
     letter_freq = {}
