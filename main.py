@@ -22,7 +22,7 @@ if __name__ == "__main__":
     num_words = get_num_words(text)
     letters = get_num_letters(text)
     print(f"Report of {book}")
-    print(f"There are {num_words} in the document")
+    print(f"There are {num_words} words found in the document")
     letter_list = []
     for c in letters:
         if c.isalpha():
